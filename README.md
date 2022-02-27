@@ -1,42 +1,38 @@
-# Github Finder App
+<div id="top"></div>
 
-App to search Github users and display their info. This is part of **Udemy Course [React Front To Back 2022](https://www.udemy.com/course/react-front-to-back-2022/)**
+## Github Finder App
 
-<!-- PROJECT LOGO -->
+A React app that lets you search for GitHub users and check out that user's public information. This app uses the Context API for state management.
+
+You can check out the live project ([vercel](https://vercel.com/)) by clicking **[Github Finder](https://github-finder-app-xxrjun.vercel.app/)**
+
+<!-- PROJECT Demo -->
 <div align="center">
   <h3 align="center">Demo</h3>
   <a href="https://github-finder-app-xxrjun.vercel.app/">
-    <img src="https://github.com/xxrjun/Github-Finder-App/blob/main/demo/demo1.png" alt="Logo">
+    <img src="https://github.com/xxrjun/Github-Finder-App/blob/main/demo/demo1.png" alt="demo1">
   </a>
   <a href="https://github-finder-app-xxrjun.vercel.app/">
-    <img src="https://github.com/xxrjun/Github-Finder-App/blob/main/demo/demo2.png" alt="Logo">
+    <img src="https://github.com/xxrjun/Github-Finder-App/blob/main/demo/demo2.png" alt="demo2">
+  </a>
+  <a href="https://github-finder-app-xxrjun.vercel.app/">
+    <img src="https://github.com/xxrjun/Github-Finder-App/blob/main/demo/demo3.png" alt="demo3">
   </a>
 </div>
 
-# Learn From
+
+## Learn From
 
 **Udemy Course [React Front To Back 2022](https://www.udemy.com/course/react-front-to-back-2022/)**
 
 Thanks Teacher Brad Traversy.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
+## Built With
 
 * [React.js](https://reactjs.org/)
 * [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app)
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -47,130 +43,43 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+**npm**
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://docs.github.com/en/rest](https://docs.github.com/en/rest)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/xxrjun/Github-Finder-App
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Rename `.env.example` to `.env`
+5. (Optional) You can use the Github API without a personal token, but if you want to use your token which enables to increase request limit rate, add it to the     `.env` file
+  Learn how to create a token [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+  
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   REACT_APP_GITHUB_TOKEN="ADD_YOUR_TOKEN";
    ```
+### Run the App in Develop Mode
+```sh
+npm start
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Acknowledgments I Learned From This Project
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Github REST API](https://docs.github.com/en/rest)
+* [Daisy UI](https://daisyui.com/)
+* [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app )
+* [React useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+* [Vercel](https://vercel.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
