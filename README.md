@@ -30,7 +30,7 @@ Thanks Teacher Brad Traversy.
 ## Built With
 
 * [React.js](https://reactjs.org/)
-* [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app)
+* [Tailwind](https://tailwindcss.com/docs/guides/create-react-app)  UI created by [Hassib Moddasser](https://twitter.com/hassibmoddasser)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
