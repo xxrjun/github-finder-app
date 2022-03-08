@@ -49,7 +49,7 @@ npm install npm@latest -g
 ```
 
 ### Installation
-1. Get a free API Key at [https://docs.github.com/en/rest](https://docs.github.com/en/rest)
+1. Get a free API Key at [Github REST API](https://docs.github.com/en/rest)
 2. Clone the repo
    ```sh
    git clone https://github.com/xxrjun/Github-Finder-App
@@ -59,7 +59,7 @@ npm install npm@latest -g
    npm install
    ```
 4. Rename `.env.example` to `.env`
-5. (Optional) You can use the Github API without a personal token, but if you want to use your token which enables to increase request limit rate, add it to the     `.env` file
+5. (Optional) You can use the Github API without a personal token, but if you want to increase the request limit rate, get your token and add it to the `.env` file.
   Learn how to create a token [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   
    ```js
